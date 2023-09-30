@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+typedef struct{
+    int x;
+    int y;
+}titik;
+
+int main(){
+    //contoh tipe boolean
+    int lulus;
+    titik koordinat;
+    
+    //variabel jawab bernilai true;
+    lulus = 1;
+    printf("Nilai variabel lulus = %d\n", lulus);
+    
+    //variabel koordinat berisi (2, 7)
+    p1.x = 2;
+    p2.y = 7;
+    printf("Garis lurus melewati titik (%d, %d)\n", p1.x, p1.y);
+    printf("x=%d\n", p1.x);
+    printf("y=%d\n", p1.y);
+    
+    return 0;
+}

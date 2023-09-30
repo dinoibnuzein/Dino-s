@@ -1,0 +1,11 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+int main()
+{
+    int jumlah;
+    float harga_unit, harga_total;
+    jumlah=15;
+    harga_unit=14.5;
+    harga_total=jumlah*harga_unit;
+    printf("Harga total = %f\n" ,harga_total);
+}
