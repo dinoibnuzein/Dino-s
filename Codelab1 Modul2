@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main(){
+	float ns1, ns2, ns3, ns4, hasils, hasilk;
+	const float nkambing1 = 120;
+	const float nkambing2 = 85.8;
+	const float nkambing3 = 23;
+	
+	printf("Masukkan berat sapi pertama : ");
+	scanf("%f", &ns1);
+	printf("Masukkan berat sapi kedua : ");
+	scanf("%f", &ns2);
+	printf("Masukkan berat sapi ketiga : ");
+	scanf("%f", &ns3);
+	printf("Masukkan berat sapi keempat : ");
+	scanf("%f", &ns4);
+	
+	hasils = ns1 + ns2 + ns3 + ns4;
+	hasilk = nkambing1 + nkambing2 + nkambing3;
+	
+	printf("\nHasil Seluruh Berat Sapi : %f\n", hasils);
+	printf("Hasil Seluruh Berat Kambing : %f", hasilk);
+
+}
