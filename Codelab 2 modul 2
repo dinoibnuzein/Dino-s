@@ -1,0 +1,23 @@
+#include <stdbool.h>
+#include <string.h>
+
+int main() {
+// Boolean
+bool isTrue = true;
+bool isFalse = false;
+
+printf("Boolean values:\n");
+printf("isTrue: %d\n", isTrue);
+printf("isFalse: %d\n", isFalse);
+
+// Strings
+char str1[] = "Hello i'm dino";
+char str2[20];
+strcpy(str2, str1);
+
+printf("\nStrings:\n");
+printf("str1: %s\n", str1);
+printf("str2: %s\n", str2);
+
+return 0;
+}
